@@ -1,0 +1,231 @@
+#Aboutimg img{
+    height:200px;
+    width:350px;
+}
+body{
+    background-color:green;
+}
+.center{
+    text-align: center;
+}
+#About{
+    Height: auto;
+    width: 100%;
+    border: 4px double black; background-color: lightgreen;
+}
+#Aboutimg2 img{
+    height: 200px;
+    width:350px;
+}
+#Aboutimg1 img{
+    height:250px;
+    width: 250px;
+}
+#Aboutimg2{
+    text-align: center; 
+}
+
+#Aboutimg1{
+    text-align: center;
+}
+#Education {
+    width: 100%;
+
+}
+#Education img {
+    width:500px;
+    height: 300px;
+}
+.col-2{
+    float:left;
+    width: 45%;
+    margin: 20px;
+    padding: 10px;
+}
+#Favorites img{
+    width:500px;
+    height: 500px;
+    border: 2px dashed blue; 
+}
+.portfolio-display {
+    margin-bottom: 30px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#Portfolio .col-3{
+    width: 31.7%;
+    margin: 10px;
+}
+.Portfolio-image{
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px;
+    position:relative;
+}
+.Portfolio-image img{
+    width: 300px;
+    height: 300px;
+}
+.Portfolio-text{
+    transition:all 0.5s ease-in-out;
+    position: absolute;
+    height: 100%;
+    color: transparent;
+    width: 100%;
+    top: 0;
+    left:0;
+    text-align: center;
+    padding:10px;
+    
+}
+.Portfolio-image:hover{
+    box-shadow: 0 0 10px lightgray;
+}
+#Skills{
+    width: 100%;
+    background-color: lawngreen;
+    border: 3px dashed black;
+}
+.Skills-Display{
+    padding: 5px;
+    margin-bottom: 30px;
+}
+.Skill-progress{
+    border-width: 1px;
+    background-color: gray;
+    width: 176px;
+    height: 35px;
+    border-radius: 16px;
+    box-shadow: 1px 1px 2px 1px lightgoldenrodyellow;
+    margin:22px;
+    overflow:hidden;
+}
+.skill-name span{
+    color:white;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+.col-3{
+    float:left;
+    width:45%;
+}
+.fifty-per{
+    Height:inherit;
+    width:50%;
+}
+.blue{
+    background-color: blue;
+}
+.eightyfive-per{
+    Height:inherit;
+    width:85%;
+}
+.eighty-per{
+    height:inherit;
+    width:80%;
+}
+.seventy-per{
+    height:inherit;
+    width:70%;
+}
+.ninety-per{
+    height:inherit;
+    width:70%;
+}
+.thirty-per{
+    height:inherit;
+    width:30%;
+}
+.sixtyfive-per{
+    height:inherit;
+    width:65%;
+}
+.ninetyfive-per{
+    height:inherit;
+    width:95%;
+}
+.sixtyfive{
+    height:inherit;
+    width:65%;
+}
+.orange{
+    background-color:orange;
+
+}
+.light-purple{
+ background-color: rgb(102, 51, 214);
+}
+.teal{
+    background-color: teal;
+}
+.section-heading{
+    padding:4.5rem;
+    font-size: 35px;
+}
+section::after{
+    content:"";
+    clear: both;
+    display: table;
+}
+#Header-nav li{
+    display:inline-block;
+} 
+#Header-nav ul{
+    word-spacing: 20px;
+}
+#Header-nav li a{
+    text-decoration:none;
+    color:white;
+
+}
+.nav-Menu li a{
+    transition: color 0.5s, border-bottom 4s;
+
+}
+
+.nav-Menu li a:hover{
+    color: lightgrey;
+    border-bottom: 1px solid black;
+
+}
+#header-resume{
+    background-image: url(Img/lollll.jpeg);
+    background-size: cover;
+    opacity: 0.8;
+    height:400px;
+    padding-top: 14px;
+    background-position: center;
+}
+#Name-container{
+    margin-top: 150px;
+    font-size: 30px;
+}
+#my-name{
+    color:white
+}
+section ,header{
+    margin: 20px;
+
+}
+#Favorites{
+    background-color: rgb(25, 145, 25);
+    border:2px solid black;
+}
+.fs{
+    background-color:#a2ff12;
+}
+.fss{
+    background-color: #b9ff29;
+}
+.fb{
+    background-color: greenyellow;
+}
+#Education{
+    background-color:rgb(31, 197, 31);
+    border: 2px double black;
+    font-size: 22px;
+}
+
